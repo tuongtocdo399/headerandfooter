@@ -1,0 +1,64 @@
+#main{
+
+    background-image: url(../img/body/IMG_0828.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        margin: 0 auto !important;
+        padding: 90px 110px !important;
+        z-index: 2;
+        min-height: 475px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+   padding: 20px;
+    background-image: url(../img/header/bg.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#footer .leftfooter ul{
+    display: flex;
+    
+}
+#footer .leftfooter .item{
+    margin-right: 5px;
+}
+#footer .leftfooter .item a{
+    display: block;
+    width: 20px;
+    height: 18px;
+    font-size: 20px;
+    color: white;
+    margin-top: -3px;
+}
+#footer .rightfooter{
+    
+  text-align: right;
+}
+#footer .rightfooter ul{
+    display: flex;
+    
+    
+    margin-top: 2px;
+}
+#footer .rightfooter ul li{
+    border-right: 1px solid #FFBC9B;
+    text-transform: lowercase;
+    margin: 0px 10px;
+    float: right;
+    padding-right: 5px;
+
+}
+#footer .rightfooter ul li a{
+    color: white;
+}
+#footer .rightfooter ul li:hover a{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
